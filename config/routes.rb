@@ -1,5 +1,6 @@
 LibraryApp::Application.routes.draw do
   resources :books
+  get 'books' => 'book#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
