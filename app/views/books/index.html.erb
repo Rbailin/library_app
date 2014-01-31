@@ -19,7 +19,8 @@
       <tr>
         <td><%= book.title %></td>
         <td><%= book.author %></td>
-      <!--   <td><%= book.year %></td>
+  <td><%= link_to book.title, book %> by <%= book.author %>,</td>
+  <!--   <td><%= book.year %></td>
         <td><%= book.ISBN %></td>
         <td><%= book.genre %></td> -->
         <td><%= link_to 'Show', book %></td>
